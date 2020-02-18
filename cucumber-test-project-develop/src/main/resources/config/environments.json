@@ -1,0 +1,44 @@
+{
+  "environments": [
+    {
+      "id": "api",
+      "name": "REST Api Testing",
+      "toDoApiUrl": "https://jsonplaceholder.typicode.com/todos/",
+      "usersApiUrl": "https://jsonplaceholder.typicode.com/users/"
+    },
+    {
+      "id": "vodafone",
+      "name": "Vodafone Website",
+      "websiteUrl": "https://www.vodafone.com.mt/home",
+      "landingPageUrl": "https://www.vodafone.com.mt/myVodafone-postpaid"
+    },
+    {
+      "id": "siebelUat",
+      "name": "Siebel Website UAT",
+      "websiteUrl": "https://sbluat/eCommunications_oui_enu",
+      "landingPageUrl": ""
+    }
+  ],
+  "androidDevices": [
+    {
+      "id": "pixel2",
+      "deviceName": "Pixel 2 API 28",
+      "platformVersion": "9.0",
+      "app": "C:\\Users\\piecar\\Documents\\workspace\\selendroid-test-app.apk"
+    },
+    {
+      "id": "nexus5",
+      "deviceName": "Nexus 5 API 25",
+      "platformVersion": "7.1.1",
+      "app": "C:\\Users\\piecar\\Documents\\workspace\\selendroid-test-app.apk"
+    }
+  ],
+  "iosDevices": [
+    {
+      "id": "iPhone6s",
+      "deviceName": "iPhone 6S",
+      "platformVersion": "12.1.2",
+      "app": ""
+    }
+  ]
+}
